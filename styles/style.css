@@ -4,7 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    background-image: url(/images/background3.jpg);
+    background: linear-gradient(-45deg,#00d5fc,#046af6);
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     transition: all 0.2s;
 }
 nav ul li a:hover{
@@ -111,4 +111,9 @@ nav ul li a:hover{
         width: 50px;
         margin-right: 10px;
     }
+}
+@media only screen and (max-width:900px){
+    .logo-tekst{
+        display: none;
+    } 
 }
