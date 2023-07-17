@@ -26,6 +26,11 @@
     text-align: center;
     display: block;
 }
+.tel{
+    margin-left: 20px;
+    color: white;
+    font-size: 80%;
+}
 nav{
     right: 0;
     top: 40px;
@@ -107,6 +112,10 @@ nav ul li a:hover{
     .logo-tekst{
         display: none;
     }
+    .tel{
+        font-size: 50%;
+        text-align: center;
+      }
     .menu-icon{
         width: 50px;
         margin-right: 10px;
