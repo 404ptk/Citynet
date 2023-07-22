@@ -9,6 +9,7 @@
     min-height: 100vh;
     box-sizing: border-box;
     overflow: hidden;
+    z-index: -1;
 }
 .tel{
   margin-left: 20px;
@@ -61,10 +62,10 @@ nav ul li a:hover{
 .aktualna{
     text-decoration:underline;
     cursor: default;
-    color: grey;
+    color: rgb(35, 195, 223);
 }
 .aktualna:hover{
-    color: grey;
+  color: rgb(35, 195, 223);
 }
 .test{
     margin-top: 1000px;
@@ -166,6 +167,7 @@ nav ul li a:hover{
   form .signup-link a:hover{
     text-decoration: underline;
   }
+
 
 @keyframes rotation{
     from {

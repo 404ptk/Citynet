@@ -63,10 +63,10 @@ nav ul li a:hover{
 .aktualna{
     text-decoration:underline;
     cursor: default;
-    color: grey;
+    color: rgb(35, 195, 223);
 }
 .aktualna:hover{
-    color: grey;
+    color: rgb(35, 195, 223);
 }
 .test{
     margin-top: 1000px;
