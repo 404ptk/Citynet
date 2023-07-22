@@ -81,6 +81,16 @@ nav ul li a:hover{
     transition: all 0.5s;
     filter: drop-shadow(0px 0px 1px black);
 }
+.dolacz2{
+    cursor: default;
+    margin-top: 20px;
+    font-size: 250%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    filter: drop-shadow(0px 0px 1px black);
+}
 .dolacz:hover{
     transition: all 0.5s;
     letter-spacing: 2px;
@@ -91,6 +101,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
 }
+.col2 img{
+    filter: drop-shadow(0px 0px 5px white);
+    transition: all 0.2s;
+}
+.col2 img:hover{
+    cursor: pointer;
+    transition: all 0.2s;
+    filter: drop-shadow(0px 0px 50px white);
+}
+
 .row .col3{
     color: white;
     font-size: 200%;
