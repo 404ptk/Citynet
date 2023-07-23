@@ -9,12 +9,9 @@
     min-height: 100vh;
     box-sizing: border-box;
     overflow: hidden;
+    background-repeat: repeat;
+    background-size: cover;
     z-index: -1;
-}
-.tel{
-  margin-left: 20px;
-  color: white;
-  font-size: 80%;
 }
 .navbar{
     width: 100%;
@@ -31,6 +28,11 @@
     color: rgb(146, 218, 240);
     text-align: center;
     display: block;
+}
+.tel{
+    margin-left: 20px;
+    color: white;
+    font-size: 80%;
 }
 nav{
     right: 0;
@@ -66,109 +68,95 @@ nav ul li a:hover{
     color: rgb(35, 195, 223);
 }
 .aktualna:hover{
-  color: rgb(35, 195, 223);
+    color: rgb(35, 195, 223);
 }
 .test{
     margin-top: 1000px;
 }
-
-.logowanie{
-    max-width: 440px;
-    padding: 0 20px;
-    margin: 170px auto;
-  }
-  .wrapper{
-    width: 100%;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
-  }
-  .wrapper .title{
-    height: 90px;
-    background: #52a8cf;
-    border-radius: 5px 5px 0 0;
-    color: #fff;
-    font-size: 30px;
+.dolacz{
+    cursor: default;
+    margin-top: 50px;
+    font-size: 250%;
     font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .wrapper form{
-    padding: 30px 25px 25px 25px;
-  }
-  .wrapper form .row{
-    height: 45px;
-    margin-bottom: 15px;
-    position: relative;
-  }
-  .wrapper form .row input{
-    height: 100%;
-    width: 85%;
-    outline: none;
-    padding-left: 60px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    font-size: 16px;
-    transition: all 0.3s ease;
-  }
-  form .row input:focus{
-    border-color: #66bde6;
-    box-shadow: inset 0px 0px 2px 2px rgba(137, 206, 218, 0.25);
-  }
-  form .row input::placeholder{
-    color: #999;
-  }
-  .wrapper form .row i{
-    position: absolute;
-    width: 47px;
-    height: 100%;
-    color: #fff;
-    font-size: 18px;
-    background: #52a8cf;
-    border: 1px solid #52a8cf;
-    border-radius: 5px 0 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .wrapper form .pass{
-    margin: -8px 0 20px 0;
-  }
-  .wrapper form .pass a{
-    color: #52a8cf;
-    font-size: 17px;
-    text-decoration: none;
-  }
-  .wrapper form .pass a:hover{
-    text-decoration: underline;
-  }
-  .wrapper form .button input{
-    color: #fff;
-    margin-left: 30px;
-    font-size: 20px;
-    font-weight: 500;
-    padding-left: 0px;
-    background: #52a8cf;
-    border: 1px solid #458aaa;
-    cursor: pointer;
-  }
-  form .button input:hover{
-    background: #52a8cf;
-  }
-  .wrapper form .signup-link{
+    color: white;
     text-align: center;
+    transition: all 0.5s;
+    filter: drop-shadow(0px 0px 1px black);
+}
+.dolacz2{
+    cursor: default;
     margin-top: 20px;
-    font-size: 17px;
-  }
-  .wrapper form .signup-link a{
-    color: #52a8cf;
-    text-decoration: none;
-  }
-  form .signup-link a:hover{
-    text-decoration: underline;
-  }
+    font-size: 250%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    filter: drop-shadow(0px 0px 1px black);
+}
+.dolacz:hover{
+    transition: all 0.5s;
+    letter-spacing: 2px;
+}
+.row .col2{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col2 img{
+    filter: drop-shadow(0px 0px 5px white);
+    transition: all 0.2s;
+}
+.col2 img:hover{
+    cursor: pointer;
+    transition: all 0.2s;
+    filter: drop-shadow(0px 0px 50px white);
+}
 
+.row .col3{
+    color: white;
+    font-size: 200%;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col1 .wifi{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    filter: drop-shadow(0px 0px 4px white);
+    transition: all 0.5s;
+}
+.col1 .wifi:hover{
+    transition: all 0.5s;
+    filter: drop-shadow(0px 0px 9px white);
+}
+
+.col3{
+    z-index: 1;
+    filter: drop-shadow(0px 0px 1px white);
+    margin-top: 50px;
+}
+.col3 p,h2{
+    text-align: center;
+}
+.col3 p{
+    font-size: 60%;
+}
+.col3 h2{
+    cursor: default;
+}
+.col3 img{
+    filter: drop-shadow(0px 0px 9px white);
+}
+.linia{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    z-index: 0;
+}
 
 @keyframes rotation{
     from {
@@ -181,10 +169,6 @@ nav ul li a:hover{
 @media only screen and (max-width:700px){
     nav{
         position: relative;
-    }
-    .tel{
-      font-size: 50%;
-      text-align: center;
     }
     nav ul{
         margin-top: 10px;
@@ -216,15 +200,34 @@ nav ul li a:hover{
     .logo-tekst{
         display: none;
     }
+    .tel{
+        font-size: 50%;
+        text-align: center;
+      }
     .menu-icon{
         width: 50px;
         margin-right: 10px;
     }
-    .logowanie{
-        margin: 100px auto;
+    .col1 .dolacz{
+        font-size: 100%;
     }
-    .wrapper form .row input{
-        width: 80%;
+    .col1 .wifi{
+        width: 150px;
+    }
+    .col1 .dolacz2{
+        font-size: 100%;
+    }
+    .col2 img{
+        width: 120px;
+    }
+    .row .col3{
+        color: white;
+        font-size: 100%;
+        padding: 20px;
+        display: flex;
+    }
+    .col3 img{
+        width: 350px;
     }
 }
 @media only screen and (max-width:900px){
