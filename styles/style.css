@@ -19,6 +19,19 @@
     align-items: center;
     background-image: url(/images//background.jpg);
 }
+.navbar2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(/images//background.jpg);
+}
+.navbar2 nav{
+    right: 0;
+    bottom: 40px;
+    position: absolute;
+    flex: 1;
+    text-align: right;
+}
 .logo{
     width: 80px;
     margin: 10px 10px;
@@ -98,6 +111,8 @@ nav ul li a:hover{
     letter-spacing: 2px;
 }
 .row .col2{
+    position: relative;
+    z-index: 3;
     padding: 20px;
     align-items: center;
     display: flex;
@@ -181,6 +196,7 @@ nav ul li a:hover{
     height: auto;
     padding-bottom: 50px;
     background-color: rgb(247, 245, 245);
+    margin-bottom: 70px;
 }
 .predkosci b{
     color: rgb(116, 172, 194);
@@ -210,9 +226,11 @@ nav ul li a:hover{
     padding-bottom: 70px;
 }
 .cyfrowa-IPTV{
+    text-align: center;
     padding-bottom: 70px;
 }
 .cyfrowa-DVB-C{
+    text-align: center;
     padding-bottom: 70px;
 }
 .wykaz img{
@@ -225,6 +243,9 @@ nav ul li a:hover{
 }
 .wykaz{
     padding-bottom: 70px;
+}
+.telefon-stacjonarny{
+    text-align: center;
 }
 .telefon-stacjonarny a{
     color: rgb(116, 172, 194);
