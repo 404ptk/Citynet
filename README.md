@@ -1,3 +1,3 @@
-Strona dla hostingu internetu Citynet Rzeszów (PROJEKT)
+Strona dla hostingu internetu Citynet Rzeszów (PROJECT)
 
 Under development
