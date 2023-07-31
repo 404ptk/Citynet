@@ -9,3 +9,8 @@ function togglemenu(){
         menuList.style.maxHeight = "0px";
     }
 }
+
+//top
+function scrollToTop(){
+    window.scrollTo(0,0);
+}
