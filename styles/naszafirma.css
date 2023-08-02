@@ -17,6 +17,7 @@
     background-color: rgb(183, 219, 240);
 }
 .linka1{
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -24,6 +25,7 @@
     opacity: 0.1;
 }
 .linka2{
+    z-index: 0;
     position: absolute;
     top: 150vh;
     left: 0;
@@ -60,6 +62,7 @@
 }
 
 .navbar{
+    z-index: 5;
     width: 100%;
     display: flex;
     align-items: center;
