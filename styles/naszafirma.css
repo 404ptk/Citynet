@@ -16,6 +16,20 @@
     padding: 30px;
     background-color: rgb(183, 219, 240);
 }
+.linka1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.1;
+}
+.linka2{
+    position: absolute;
+    top: 150vh;
+    left: 0;
+    width: 100%;
+    opacity: 0.1;
+}
 .fwh-slide h2{
     margin-bottom: 30px;
     filter: drop-shadow(0px 0px 1px rgb(73, 172, 230));
@@ -24,6 +38,8 @@
 .fwh-slide h4{
     filter: drop-shadow(0px 0px 1px rgb(73, 172, 230));
     font-size: 150%;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .fwh-slide b{
     color: rgb(22, 78, 92);
@@ -48,6 +64,19 @@
     display: flex;
     align-items: center;
     background-image: url(/images/background.jpg);
+}
+.navbar2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(/images//background.jpg);
+}
+.navbar2 nav{
+    right: 0;
+    bottom: 40px;
+    position: absolute;
+    flex: 1;
+    text-align: right;
 }
 .logo{
     width: 80px;
@@ -255,6 +284,23 @@ nav ul li a:hover{
 
 .col-4 h4{
     font-weight: 500;
+}
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #00d5fc;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.scrollTop:hover{
+    background-color: #046af6;
+    color: #fff;
+
 }
 
 @keyframes rotation{
