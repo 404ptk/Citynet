@@ -1,17 +1,48 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 .container{
-    background-image: url(/images/background3.jpg);
-    background-size:cover;
     width: 100%;
-    height: 130vh;
-    min-height: 100vh;
-    box-sizing: border-box;
     overflow: hidden;
 }
+.fwh-slide{
+    height: 100vh;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(183, 219, 240);
+}
+.fwh-slide h2{
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 0px 1px rgb(73, 172, 230));
+    font-size: 300%;
+}
+.fwh-slide h4{
+    filter: drop-shadow(0px 0px 1px rgb(73, 172, 230));
+    font-size: 150%;
+}
+.fwh-slide b{
+    color: rgb(22, 78, 92);
+}
+.fwh-slide ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.fwh-slide--1{
+    background-color: rgb(151, 200, 228);
+}
+.fwh-slide--2{
+    background-color: rgb(114, 181, 219);
+}
+.fwh-slide--3{
+    background-color: rgb(80, 160, 206);
+}
+
 .navbar{
     width: 100%;
     display: flex;
