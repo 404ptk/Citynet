@@ -4,6 +4,7 @@
     Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     scroll-behavior: smooth;
 }
+
 .container{
     background: linear-gradient(-45deg,#00d5fc,#046af6);
     width: 100%;
