@@ -17,7 +17,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(/images//background.jpg);
+    background-image: url(/images/background.jpg);
 }
 .logo{
     width: 80px;

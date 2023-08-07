@@ -19,13 +19,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(/images//background.jpg);
+    background-image: url(/images/background.jpg);
 }
 .navbar2{
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(/images//background.jpg);
+    background-image: url(/images/background.jpg);
 }
 .navbar2 nav{
     right: 0;
