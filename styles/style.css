@@ -19,13 +19,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(images/background.jpg);
 }
 .navbar2{
+    z-index: 3;
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(images/background.jpg);
 }
 .navbar2 nav{
     right: 0;
@@ -85,9 +84,7 @@ nav ul li a:hover{
 .aktualna:hover{
     color: rgb(35, 195, 223);
 }
-.test{
-    margin-top: 1000px;
-}
+
 .dolacz{
     cursor: default;
     margin-top: 50px;
